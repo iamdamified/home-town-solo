@@ -1,0 +1,132 @@
+body {
+    
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(#a2d2ff, black);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.hero {
+    background-image: url("images/new-lagos.jpg");
+    background-size: cover;
+    height: 300px;
+    padding: 10px 0 40px 0;
+    color: rgb(63, 51, 22);
+    padding-top: 150px;
+    
+}
+
+.cta {
+    border-bottom: 2px solid brown;
+}
+
+.hero:hover {
+    background-image: url("images/Lekki-Ikoyi-Bridge.jpg");
+}
+
+#introduction {
+   display: block;
+   width: 200px;
+   justify-content: center;
+   margin: 0 auto;
+   border-radius: 10px;
+   background: #ddebf8;
+}
+
+#intro {
+   display: block;
+   width: 400px;
+   justify-content: center;
+   margin: 25px auto;
+   border-radius: 10px;
+   background: lightskyblue;
+}
+
+.national-theatre {
+    width: 150px;
+    border-radius: 100%;    
+}
+
+.national-theatre:hover {
+    width: 300px;
+    border-radius: 100%;    
+}
+
+.lekki-cc {
+    border-radius: 50%;
+    width: 120px;
+}
+
+.lekki-cc:hover {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.landmark-beach {
+    width: 180px;
+    border-radius: 100%;    
+}
+
+.landmark-beach:hover {
+    width: 400px;
+    border-radius: 100%;    
+}
+
+.activities {
+    display: block;
+    background: greenyellow; /* #42D499 */
+    margin: 0;
+    height: 500px;
+    padding-top: 0;
+}
+
+h2 {
+    margin: 70px 20px;
+}
+
+.activities-list {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0;
+}
+
+.merge {
+
+    display: flex;
+    flex-direction: column;
+}
+.image {
+	width: 150px;
+    height: 200px;
+    margin-right: 2px;
+}
+
+.image:hover {
+	width: 170px;
+    height: 220px;
+}
+
+.card {
+	display: flex;
+	width: 500px;
+	margin: 50px auto;
+	padding: 20px;
+	justify-content: space-around;
+	text-align: center;
+	color: #2b2839;
+	background: #ddebf8;
+	border-bottom: 5px solid #d8cefe;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: bisque;
+}
+
+.footer {
+    color: whitesmoke;
+    font-style: italic;
+}
